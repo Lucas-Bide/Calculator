@@ -10,39 +10,42 @@
     <body>
         <div id= "container">
             <div id= "outline">
-                <div id= "screen">75</div>
+                <div id= "screen">
+                    <p id= "content"></p>
+                </div>
                 <div id= "buttonBoard">
-                    <div id= "numbersAndOperators">
-                        <div id= "row0">
-                            <button class= "numOp">7</button>
-                            <button class= "numOp">8</button>
-                            <button class= "numOp">9</button>
-                            <button class= "numOp">*</button>
+                    <div id= "greyKeys">
+                        <div class= "row">
+                            <button class= "top left">7</button>
+                            <button class= "top">8</button>
+                            <button class= "top">9</button>
+                            <button class= "top right">*</button>
                         </div>
-                        <div id= "row1">
-                            <button class= "numOp">4</button>
-                            <button class= "numOp">5</button>
-                            <button class= "numOp">6</button>
-                            <button class= "numOp">/</button>
+                        <div class= "row">
+                            <button class= "left">4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <button>/</button>
                         </div>
-                        <div id= "row2">
-                            <button class= "numOp">1</button>
-                            <button class= "numOp">2</button>
-                            <button class= "numOp">3</button>
-                            <button class= "numOp">-</button>
+                        <div class= "row">
+                            <button class= "left">1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>-</button>
                         </div>
-                        <div id= "row3">
-                            <button class= "numOp">.</button>
-                            <button class= "numOp">0</button>
-                            <button class= "numOp">()</button>
-                            <button class= "numOp">+</button>
+                        <div class= "row">
+                            <button class= "bottom left" id= "zero">0</button>
+                            <button class= "bottom">.</button>
+                            <button class= "bottom" >+</button>
                         </div>
                     </div>
-                    <div id= "equalsButton">
-                        <button id= "equals">=</button>
+                    <div id= "orangeKeys">
+                        <button class= "top">C</button> 
+                        <button class= "bottom">=</button>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="scripts/main.js"></script>
     </body>
 </html>

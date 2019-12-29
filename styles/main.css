@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+#container {
+    width: 25%;
+    height: 80%;
+    margin: auto;
+
+}
+
+#outline {
+    height: 90%;
+    margin-top: 10%;
+    padding-top: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 10px;
+    border-color:blanchedalmond;
+    border-radius: 50px;
+    
+}
+
+#screen {
+    height: 20%;
+    background-color: paleturquoise;
+    text-align: right;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-color: blanchedalmond;
+}
+
+#content {
+    padding-top: 15%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+#buttonBoard {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.row {
+    height: 25%;
+    display: flex;
+}
+
+#greyKeys {
+    width: 80%;
+    height: 100%;
+}
+
+button {
+    font-weight: bold;
+    border: solid;
+    border-width: thin;
+    border-color: grey;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+.row button {
+    
+    width: 25%;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+#orangeKeys {
+    width: 20%;
+}
+
+#orangeKeys button {
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    border-right: none;
+    display:block;
+}
+
+#zero {
+    width: 50%;
+}
+
+.top {
+    border-top: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
